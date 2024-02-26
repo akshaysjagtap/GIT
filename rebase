@@ -1,0 +1,6 @@
+git checkout feature-branch
+git checkout main
+git rebase feature-branch
+git rebase --continue or git rebase --abort
+git push origin feature-branch --force
+
